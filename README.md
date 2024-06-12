@@ -60,6 +60,8 @@ For more information, visit the [AWS EC2 Image Builder documentation](https://do
    terraform apply
    ```
 
+![EC2 Image Builder](medium/EC2-Image-Builder/images/ib1.png)
+
 ## Explanation of the Code
 
 ### Root Configuration
