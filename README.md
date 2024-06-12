@@ -1,5 +1,16 @@
 # EC2-Image-Builder
 
+![Diagrama de Image Factory de EC2 Image Builder](https://d1.awsstatic.com/re19/image-builder/Product-Page-Diagram_Image-Factory.cbf8db591ca6de1c5d9149f3cd6ccfe6c6a64f33.png)
+
+## Prerequisites
+
+You must have the following installed and/or configured beforehand:
+
+- Terraform
+- A VPC with a private subnet tagged `Tier = Private`
+- Permissions to create a new role in AWS
+- AWS CLI
+
 ## What is EC2 Image Builder?
 
 EC2 Image Builder is a service from Amazon Web Services (AWS) that helps you create, maintain, and deploy operating system images for your Amazon EC2 instances. Manually performing these tasks each time you need a new instance would be an endless and error-prone task. EC2 Image Builder automates the entire process so you can focus on more important aspects of your work.
