@@ -77,7 +77,7 @@ For more information, visit the [AWS EC2 Image Builder documentation](https://do
 ./createAmiAl2
 ```
 
-## Descripción del Script
+## Script
 
 ```bash
 #!/usr/bin/env bash

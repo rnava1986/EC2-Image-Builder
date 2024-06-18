@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -e
 
-# Validate Terraform files
-terraform init
-terraform validate
-terraform plan
-terraform apply -auto-approve
+# # Validate Terraform files
+# terraform init
+# terraform validate
+# terraform plan
+# terraform apply -auto-approve
 
 output_value=$(terraform output -raw ami_id)
 echo "Output value: ${output_value}"
