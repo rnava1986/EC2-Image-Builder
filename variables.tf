@@ -21,6 +21,3 @@ data "aws_ami" "amazon_linux_2" {
   }
 }
 
-# data "aws_iam_role" "profile" {
-#   name = "EC2InstanceProfileForImageBuilder"
-# }

@@ -17,10 +17,6 @@ variable "image_id" {
   type = string
 }
 
-# variable "aws_iam_role" {
-#   type = string
-
-# }
 
 variable "instance_type" {
   default = "t3a.micro"
@@ -32,9 +28,9 @@ variable "region" {
 
 variable "tags" {
   default = {
-    "CostCenter"            = "Production"
-    Environment             = "Production"
-    Area                    = "Sales"
+    "CostCenter" = "Production"
+    Environment  = "Production"
+    Area         = "Sales"
   }
 }
 

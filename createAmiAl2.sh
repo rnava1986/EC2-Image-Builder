@@ -33,9 +33,8 @@ while [[ "${statusAmi}" == "BUILDING" || "${statusAmi}" == "TESTING" ]]; do
     echo "Status: ${statusAmi}"
     echo ""
     echo ""
-    exit 1  # Salir del script con un código de error
+    exit 1  
   fi
 
-  # Espera un tiempo antes de volver a verificar el valor de StatusAmi
   sleep 60
 done

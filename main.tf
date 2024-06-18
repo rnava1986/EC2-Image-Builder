@@ -7,4 +7,3 @@ module "ec2_builder_image_al2" {
   image_id     = data.aws_ami.amazon_linux_2.id
   region       = local.region
 }
-
